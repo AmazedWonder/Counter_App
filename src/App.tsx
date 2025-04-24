@@ -1,5 +1,8 @@
 // Importing the useReducer hook from React
 import {useReducer} from 'react';
+import React from 'react';
+// Importing the CSS file for styling
+import './App.css';
 
 // Defining the shape of our state object: it has one property `count` of type number
 interface State {
@@ -32,4 +35,27 @@ function stateReducer(state: State, action: CounterAction): State {
         default:
             throw new Error(`Unknown action`);
     }
+}
+
+// The main App component that uses the useReducer hook to manage state
+export default function App() {
+    // Using the useReducer hook to manage the state of the counter
+    const [state, dispatch] = useReducer(stateReducer, initialState);
+
+    // Dispatching actions to update the state
+    const increase = () => dispatch({ type: 'increment', value: 1 });
+    const decrease = () => dispatch({ type: 'decrement' });
+    const reset = () => dispatch({ type: 'reset' });
+
+    return (
+        <div className="App">
+            <h1>Welcome to my Counter</h1>
+
+            <p>Count: {state.count}</p>
+            <button onClick={increase}>+</button>
+            <button onClick={reset}>Reset</button>
+            <button onClick={decrease}>-</button>
+            
+        </div>
+    );
 }
