@@ -1,3 +1,7 @@
+# Counter App
+
+This project is focused on building a counter app using react and typescript.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
