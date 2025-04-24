@@ -16,5 +16,5 @@ type CounterAction =
     {type: 'reset'};
 
 // The reducer function takes the current state and an action as arguments
-// Setting the initial state for the counter
+// Setting the initial state
 const initialState: State = { count: 0 };
