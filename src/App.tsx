@@ -51,10 +51,15 @@ export default function App() {
         <div className="App">
             <h1>Welcome to my Counter</h1>
 
-            <p>Count: {state.count}</p>
-            <button onClick={increase}>+</button>
-            <button onClick={reset}>Reset</button>
-            <button onClick={decrease}>-</button>
+            <div  className='display'>
+                <span>Count: {state.count}</span>
+            </div>
+            
+            <div className='buttons'>
+                <button className='btnIncrease' onClick={increase}>+</button>
+                <button className='btnReset' onClick={reset}>Reset</button>
+                <button className='btnDec' onClick={decrease}>-</button>
+            </div>
             
         </div>
     );
