@@ -58,7 +58,7 @@ export default function App() {
             <div className='buttons'>
                 <button className='btn Increase' onClick={increase}>+</button>
                 <button className='btn Reset' onClick={reset}>Reset</button>
-                <button className='btn Dec' onClick={decrease}>-</button>
+                <button className='btn Decrease' onClick={decrease}>-</button>
             </div>
             
         </div>

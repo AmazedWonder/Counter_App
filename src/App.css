@@ -8,8 +8,8 @@
   margin: auto;
   margin-top: 100px;
   padding: 20px;
-  background-color: aliceblue;
-  font-family: "Poppins", sans-serif;
+  background-color: rgb(231, 234, 236);
+  /* font-family: "Poppins", sans-serif; */
   font-weight: 600;
   font-style: normal;
   border-radius: 5px;
@@ -25,10 +25,11 @@ h1 {
 .display{
   font-size: 4rem;
   color: #4a90e2;
-  margin: 20px 0;
+  margin: 50px 0;
   padding: 20px;
   border-radius: 10px;
-  background-color: #f0f8ff;
+  /* border: 2px solid #4a90e2; */
+  background-color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -47,4 +48,23 @@ h1 {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+}
+
+.Increase {
+  background-color: #4caf50;
+  color: white;
+}
+
+.Reset {
+  background-color: #2196f3;
+  color: white;
+}
+
+.Decrease {
+  background-color: #f44336;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.8;
 }
