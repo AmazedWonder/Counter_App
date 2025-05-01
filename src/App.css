@@ -16,12 +16,14 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
 
+/* header */
 h1 {
   font-size: 2rem;
   color: #333;
   margin-bottom: 20px;
 }
 
+/* counter integer display */
 .display{
   font-size: 4rem;
   color: #4a90e2;
@@ -33,12 +35,14 @@ h1 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+/* all buttons styled */
 .buttons {
   display: flex;
   justify-content: center;
   gap: 10px;
 }
 
+/* buttons */
 .btn {
   padding: 10px 20px;
   font-size: 1.5rem;
