@@ -48,7 +48,7 @@ export default function App() {
     const reset = () => dispatch({ type: 'reset' });
 
     return (
-        <div className="App">
+        <div className='app'>
             <h1>Welcome to my Counter</h1>
 
             <div  className='display'>
@@ -56,9 +56,9 @@ export default function App() {
             </div>
             
             <div className='buttons'>
-                <button className='btnIncrease' onClick={increase}>+</button>
-                <button className='btnReset' onClick={reset}>Reset</button>
-                <button className='btnDec' onClick={decrease}>-</button>
+                <button className='btn Increase' onClick={increase}>+</button>
+                <button className='btn Reset' onClick={reset}>Reset</button>
+                <button className='btn Dec' onClick={decrease}>-</button>
             </div>
             
         </div>

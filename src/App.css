@@ -1,13 +1,17 @@
-.App {
+.app {
   height: 400px;
   width: 400px;
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
-  margin: 20px, auto;
+  margin: auto;
+  margin-top: 100px;
+  padding: 20px;
   background-color: aliceblue;
-  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
@@ -26,4 +30,21 @@ h1 {
   border-radius: 10px;
   background-color: #f0f8ff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  /* color: #fff; */
+  /* background-color: #4a90e2; */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
