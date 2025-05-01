@@ -52,7 +52,7 @@ export default function App() {
             <h1>Welcome to my Counter</h1>
 
             <div  className='display'>
-                <span>Count: {state.count}</span>
+                <span>{state.count}</span>
             </div>
             
             <div className='buttons'>
